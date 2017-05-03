@@ -8,7 +8,7 @@ require([
 
   // Standard wat to initialise the WorldWide Telescope.
   var initForWwt = function() {
-    wwt.loadImageCollection("http://www.worldwidetelescope.org/COMPLETE/wwtcomplete.wtml");
+    //wwt.loadImageCollection("http://www.worldwidetelescope.org/COMPLETE/wwtcomplete.wtml");
     wwt.settings.set_showCrosshairs(true);
     wwt.hideUI(false);
   };
